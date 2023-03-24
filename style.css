@@ -3,3 +3,46 @@
     margin: 0;
     box-sizing: border-box;
 }
+.MainBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 456px;
+    margin: auto;
+    margin-top: 30px;
+}
+.main {
+    border: solid 2px green;
+    height: 148px;
+    width: 148px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.subpara {
+    padding: 13px;
+    border: solid 2px #c9c9f6;
+    width: 48px;
+}
+.digits {
+    background-color: lightgreen;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 72px;
+    padding-top: 14px;
+    border-radius: 12px;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+#Numbers {
+    border: solid 1px green;
+    height: 45px;
+    width: 53px;
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+.select{
+    background-color: green;
+    color: white;
+}
